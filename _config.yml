@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://naseer.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: Random bits
+subtitle: "011100100110000101101110011001000110111101101101"
+author: Naseer Ahmed
 simple_search: https://www.google.com/search
 description:
 
@@ -64,22 +64,22 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: naseer
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: naseer
 twitter_tweet_button: true
 
 # Google +1
-google_plus_one: false
+google_plus_one: true
 google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user:
+googleplus_user: +NaseerAhmed
 googleplus_hidden: false
 
 # Pinboard
@@ -91,7 +91,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: naseerin
 disqus_show_comment_count: false
 
 # Google Analytics
