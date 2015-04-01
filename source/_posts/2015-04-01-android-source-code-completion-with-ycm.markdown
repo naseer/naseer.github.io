@@ -12,6 +12,7 @@ A gif is worth a thousand words -
 {% img /images/blog/vim-ycm.gif 576 620 'image' 'images' %}
 
 I've been using YCM for a while for C/C++ code completion in the Android source tree as well as the Linux kernel and it just works without any need to generate tags.
+It also does syntax error checking on the fly with syntastic, which is an added bonus.
 The basic idea is relying on `$ANDROID_BUILD_TOP` to set up the necessary header paths in `ycm_extra_conf.py`
 Here is my configuration for vim. The python part of the configuration below also works with emacs.
 
