@@ -13,7 +13,7 @@ A gif is worth a thousand words -
 
 I've been using YCM for a while for C/C++ code completion in the Android source tree as well as the Linux kernel and it just works without any need to generate tags.
 It also does syntax error checking on the fly with syntastic, which is an added bonus.
-The basic idea is relying on `$ANDROID_BUILD_TOP` to set up the necessary header paths in `ycm_extra_conf.py`
+The basic idea is to rely on `$ANDROID_BUILD_TOP` to set up the necessary header paths in `ycm_extra_conf.py`
 Here is my configuration for vim. The python part of the configuration below also works with emacs.
 
 * Install [vim](http://www.vim.org/) > version 7.04 or the latest alpha version of [neovim](http://neovim.org/). This can be easily done with [brew](http://brew.sh/) on OSX or [linuxbrew](http://brew.sh/linuxbrew/) on Linux.
