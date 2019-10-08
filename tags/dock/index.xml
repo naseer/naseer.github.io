@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dock on Random Bits</title>
+    <link>https://www.naseer.in/tags/dock/</link>
+    <description>Recent content in dock on Random Bits</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Naseer Ahmed</copyright>
+    <lastBuildDate>Thu, 30 Oct 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.naseer.in/tags/dock/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Of docking Stations 4k Monitors</title>
+      <link>https://www.naseer.in/post/docking-stations-4k-monitors/</link>
+      <pubDate>Thu, 30 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.naseer.in/post/docking-stations-4k-monitors/</guid>
+      <description>&lt;p&gt;Macbook Pros are powerful developer machines that you can hook up monitors and keyboards to to convert into nice workstations. Yet, Apple doesn’t provide any standard dock for them. Enter, the Caldigit Thunderbolt Station, which is a great little docking station for expanding peripherals for devices that support Thunderbolt.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

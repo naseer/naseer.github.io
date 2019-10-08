@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vim on Random Bits</title>
+    <link>https://www.naseer.in/tags/vim/</link>
+    <description>Recent content in vim on Random Bits</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Naseer Ahmed</copyright>
+    <lastBuildDate>Wed, 01 Apr 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.naseer.in/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>C/C&#43;&#43; Source Code Completion With YouCompleteMe and Vim for Android and the Linux Kernel</title>
+      <link>https://www.naseer.in/post/ycm-android/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.naseer.in/post/ycm-android/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://valloric.github.io/YouCompleteMe/&#34;&gt;YouCompleteMe&lt;/a&gt; is currently the best clang based completion engine for vim/neovim and there is also an emacs version.&lt;/p&gt;
+
+&lt;p&gt;A gif is worth a thousand words -&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.naseer.in/images/vim-ycm.gif&#34; alt=&#34;vim ycm completion&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
