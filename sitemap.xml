@@ -10,7 +10,56 @@
   
   <url>
     <loc>https://www.naseer.in/</loc>
-    <lastmod>2019-09-22T02:03:52-04:00</lastmod>
+    <lastmod>2019-10-08T16:05:28-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.naseer.in/tags/android/</loc>
+    <lastmod>2019-10-08T16:05:28-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.naseer.in/tags/clang/</loc>
+    <lastmod>2019-10-08T16:05:28-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.naseer.in/post/compile-commands/</loc>
+    <lastmod>2019-10-08T16:05:28-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.naseer.in/tags/compile_commands/</loc>
+    <lastmod>2019-10-08T16:05:28-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.naseer.in/tags/development/</loc>
+    <lastmod>2019-10-08T16:05:28-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.naseer.in/post/</loc>
+    <lastmod>2019-10-08T16:05:28-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.naseer.in/tags/</loc>
+    <lastmod>2019-10-08T16:05:28-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -37,20 +86,6 @@
   </url>
   
   <url>
-    <loc>https://www.naseer.in/post/</loc>
-    <lastmod>2019-09-22T02:03:52-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.naseer.in/tags/</loc>
-    <lastmod>2019-09-22T02:03:52-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://www.naseer.in/post/hugo-reboot/</loc>
     <lastmod>2019-09-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -60,13 +95,6 @@
   <url>
     <loc>https://www.naseer.in/post/wasaga-beach-sunset/</loc>
     <lastmod>2019-08-03T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.naseer.in/tags/android/</loc>
-    <lastmod>2015-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -87,13 +115,6 @@
   
   <url>
     <loc>https://www.naseer.in/post/ycm-android/</loc>
-    <lastmod>2015-04-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.naseer.in/tags/development/</loc>
     <lastmod>2015-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
