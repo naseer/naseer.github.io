@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vim on Random Bits</title>
@@ -19,10 +19,8 @@
       
       <guid>https://www.naseer.in/post/ycm-android/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://valloric.github.io/YouCompleteMe/&#34;&gt;YouCompleteMe&lt;/a&gt; is currently the best clang based completion engine for vim/neovim and there is also an emacs version.&lt;/p&gt;
-
 &lt;p&gt;A gif is worth a thousand words -&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.naseer.in/images/vim-ycm.gif&#34; alt=&#34;vim ycm completion&#34; /&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src=&#34;https://www.naseer.in/images/vim-ycm.gif&#34; alt=&#34;vim ycm completion&#34;&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

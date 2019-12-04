@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cscope on Random Bits</title>
@@ -19,7 +19,6 @@
       
       <guid>https://www.naseer.in/post/cscope/</guid>
       <description>&lt;p&gt;Cscope can be a great tool to browse the Android source code. Here is what I did to get it working with vim&lt;/p&gt;
-
 &lt;p&gt;Get cscope_maps.vim from &lt;a href=&#34;http://cscope.sourceforge.net/cscope_maps.vim&#34;&gt;here&lt;/a&gt; and place it into your &lt;code&gt;~.vim/plugin&lt;/code&gt; directory. (create this dir if it does not exist)
 Add the following lines to your &lt;code&gt;.vimrc&lt;/code&gt;&lt;/p&gt;</description>
     </item>

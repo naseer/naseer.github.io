@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Random Bits</title>
@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Naseer Ahmed</copyright>
-    <lastBuildDate>Tue, 08 Oct 2019 16:05:28 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 03 Dec 2019 23:15:31 -0500</lastBuildDate>
     
 	<atom:link href="https://www.naseer.in/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>photos</title>
+      <link>https://www.naseer.in/tags/photos/</link>
+      <pubDate>Tue, 03 Dec 2019 23:15:31 -0500</pubDate>
+      
+      <guid>https://www.naseer.in/tags/photos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>travel</title>
+      <link>https://www.naseer.in/tags/travel/</link>
+      <pubDate>Tue, 03 Dec 2019 23:15:31 -0500</pubDate>
+      
+      <guid>https://www.naseer.in/tags/travel/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>android</title>
@@ -54,15 +72,6 @@
       <pubDate>Sun, 22 Sep 2019 02:03:52 -0400</pubDate>
       
       <guid>https://www.naseer.in/tags/nature/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>photos</title>
-      <link>https://www.naseer.in/tags/photos/</link>
-      <pubDate>Sun, 22 Sep 2019 02:03:52 -0400</pubDate>
-      
-      <guid>https://www.naseer.in/tags/photos/</guid>
       <description></description>
     </item>
     

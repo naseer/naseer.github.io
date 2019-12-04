@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>d3 on Random Bits</title>
@@ -19,7 +19,6 @@
       
       <guid>https://www.naseer.in/post/mermaidjs-live/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/knsv/mermaid&#34;&gt;Mermaid&lt;/a&gt; is a nice javascript library to generate sequence diagrams, flowcharts and graphs from markdown-like-syntax. It is based on &lt;a href=&#34;http://d3js.org/&#34;&gt;d3.js&lt;/a&gt;.&lt;/p&gt;
-
 &lt;p&gt;It also has a command line tool, but there is currently no option to style the output with that tool.&lt;/p&gt;</description>
     </item>
     

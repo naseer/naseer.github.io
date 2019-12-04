@@ -10,7 +10,42 @@
   
   <url>
     <loc>https://www.naseer.in/</loc>
-    <lastmod>2019-10-08T16:05:28-04:00</lastmod>
+    <lastmod>2019-12-03T23:15:31-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.naseer.in/tags/photos/</loc>
+    <lastmod>2019-12-03T23:15:31-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.naseer.in/post/</loc>
+    <lastmod>2019-12-03T23:15:31-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.naseer.in/post/skypics/</loc>
+    <lastmod>2019-12-03T23:15:31-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.naseer.in/tags/</loc>
+    <lastmod>2019-12-03T23:15:31-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.naseer.in/tags/travel/</loc>
+    <lastmod>2019-12-03T23:15:31-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -51,20 +86,6 @@
   </url>
   
   <url>
-    <loc>https://www.naseer.in/post/</loc>
-    <lastmod>2019-10-08T16:05:28-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.naseer.in/tags/</loc>
-    <lastmod>2019-10-08T16:05:28-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://www.naseer.in/post/kiwanis-heydenshore/</loc>
     <lastmod>2019-09-22T02:03:52-04:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -73,13 +94,6 @@
   
   <url>
     <loc>https://www.naseer.in/tags/nature/</loc>
-    <lastmod>2019-09-22T02:03:52-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.naseer.in/tags/photos/</loc>
     <lastmod>2019-09-22T02:03:52-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

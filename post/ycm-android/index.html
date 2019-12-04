@@ -34,7 +34,7 @@ A gif is worth a thousand words -
 
 
 
-<meta name="generator" content="Hugo 0.58.3" />
+<meta name="generator" content="Hugo 0.60.1" />
 
 
 <link rel="canonical" href="https://www.naseer.in/post/ycm-android/" />
@@ -53,7 +53,7 @@ A gif is worth a thousand words -
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.c8c5933df88d0c163af5f1699f91f4294379f2c1899fe8f06401b1f1f6f23651.css" integrity="sha256-yMWTPfiNDBY69fFpn5H0KUN58sGJn&#43;jwZAGx8fbyNlE=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.e8754cb4a03587553d84e655353dd328b6785e5d30cbebaa21d55869922d653a.css" integrity="sha256-6HVMtKA1h1U9hOZVNT3TKLZ4Xl0wy&#43;uqIdVYaZItZTo=" media="screen" crossorigin="anonymous">
 
 
 
@@ -61,9 +61,7 @@ A gif is worth a thousand words -
 
 <meta property="og:title" content="C/C&#43;&#43; Source Code Completion With YouCompleteMe and Vim for Android and the Linux Kernel" />
 <meta property="og:description" content="YouCompleteMe is currently the best clang based completion engine for vim/neovim and there is also an emacs version.
-
 A gif is worth a thousand words -
-
 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.naseer.in/post/ycm-android/" />
@@ -71,25 +69,18 @@ A gif is worth a thousand words -
 <meta property="article:modified_time" content="2015-04-01T00:00:00+00:00" />
 <meta itemprop="name" content="C/C&#43;&#43; Source Code Completion With YouCompleteMe and Vim for Android and the Linux Kernel">
 <meta itemprop="description" content="YouCompleteMe is currently the best clang based completion engine for vim/neovim and there is also an emacs version.
-
 A gif is worth a thousand words -
-
 ">
-
-
 <meta itemprop="datePublished" content="2015-04-01T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2015-04-01T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="298">
+<meta itemprop="wordCount" content="300">
 
 
 
-<meta itemprop="keywords" content="android,aosp,intellisense,c&#43;&#43;,development,vim,emacs,linux," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="android,aosp,intellisense,c&#43;&#43;,development,vim,emacs,linux," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="C/C&#43;&#43; Source Code Completion With YouCompleteMe and Vim for Android and the Linux Kernel"/>
 <meta name="twitter:description" content="YouCompleteMe is currently the best clang based completion engine for vim/neovim and there is also an emacs version.
-
 A gif is worth a thousand words -
-
 "/>
 
 <!--[if lte IE 9]>
@@ -153,6 +144,64 @@ if (!doNotTrack) {
   </ul>
 </nav>
 
+
+  
+    
+
+
+
+
+
+
+  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
 
   
 
@@ -235,21 +284,17 @@ if (!doNotTrack) {
     
     <div class="post-content">
       <p><a href="http://valloric.github.io/YouCompleteMe/">YouCompleteMe</a> is currently the best clang based completion engine for vim/neovim and there is also an emacs version.</p>
-
 <p>A gif is worth a thousand words -</p>
-
-<p><img src="/images/vim-ycm.gif" alt="vim ycm completion" /></p>
-
+<p><img src="/images/vim-ycm.gif" alt="vim ycm completion"></p>
 <p>I’ve been using YCM for a while for C/C++ code completion in the Android source tree as well as the Linux kernel and it just works without any need to generate tags. It also does syntax error checking on the fly with syntastic, which is an added bonus. The basic idea is to rely on <code>.repo</code> as a marker to set up the necessary header paths in <code>ycm_extra_conf.py</code> for userspace and <code>Kbuild</code> as a marker for the kernel. Here is my configuration for vim. The python part of the configuration below also works with emacs.</p>
-
 <ul>
 <li>Install vim &gt; version 7.04 or the latest alpha version of neovim. This can be easily done with brew on OSX or linuxbrew on Linux.</li>
 <li>Install YCM for your OS with the clang completer. I’ve only tested Linux and OSX</li>
-
-<li><p>Configure YCM with the following options in your <code>~/.vimrc</code></p>
+<li>Configure YCM with the following options in your <code>~/.vimrc</code></li>
+</ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-vim" data-lang="vim"><span class="lnt"> 1
+<pre class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -268,19 +313,17 @@ if (!doNotTrack) {
 </span><span class="err"></span><span class="k">let</span> <span class="nx">g</span>:<span class="nx">ycm_autoclose_preview_window_after_completion</span> <span class="p">=</span> <span class="m">1</span><span class="err">
 </span><span class="err"></span><span class="c">
 </span><span class="c">&#34;This assumes your kernel directory has the word &#39;kernel&#39;</span><span class="err">
-</span><span class="err"></span><span class="k">if</span> <span class="nx">getcwd</span><span class="p">()</span> <span class="p">=~</span> <span class="s2">&#34;kernel&#34;</span><span class="err">
-</span><span class="err"></span><span class="k">let</span> <span class="nx">g</span>:<span class="nx">ycm_global_ycm_extra_conf</span><span class="p">=</span><span class="s1">&#39;~/ycm_extra_conf_kernel.py&#39;</span><span class="err">
+</span><span class="err"></span><span class="k">if</span> <span class="nx">getcwd</span><span class="p">(</span><span class="p">)</span> <span class="p">=</span><span class="p">~</span> <span class="s2">&#34;kernel&#34;</span><span class="err">
+</span><span class="err"></span>    <span class="k">let</span> <span class="nx">g</span>:<span class="nx">ycm_global_ycm_extra_conf</span><span class="p">=</span><span class="s1">&#39;~/ycm_extra_conf_kernel.py&#39;</span><span class="err">
 </span><span class="err"></span><span class="k">else</span><span class="err">
-</span><span class="err"></span><span class="k">let</span> <span class="nx">g</span>:<span class="nx">ycm_global_ycm_extra_conf</span><span class="p">=</span><span class="s1">&#39;~/ycm_extra_conf.py&#39;</span><span class="err">
-</span><span class="err"></span><span class="k">endif</span></code></pre></td></tr></table>
+</span><span class="err"></span>    <span class="k">let</span> <span class="nx">g</span>:<span class="nx">ycm_global_ycm_extra_conf</span><span class="p">=</span><span class="s1">&#39;~/ycm_extra_conf.py&#39;</span><span class="err">
+</span><span class="err"></span><span class="k">endif</span><span class="err">
+</span></code></pre></td></tr></table>
 </div>
-</div></li>
-
-<li><p>Copy the contents of <a href="https://gist.github.com/naseer/329a6ea99a8ef880770e">this gist</a> into <code>~/ycm_extra_conf.py</code> and that should be it for userspace code!</p></li>
-
-<li><p>To configure the kernel for code completion, copy the contents of <a href="https://gist.github.com/naseer/6ada5a32580275e0ace9">this gist</a> into <code>~/ycm_extra_conf_kernel.py</code>. This may or may not work on all kernels, I’ve had varying levels of success depending on the level of clang support in that kernel version, It does seem to work fine with kernel 3.10.</p></li>
+</div><ul>
+<li>Copy the contents of <a href="https://gist.github.com/naseer/329a6ea99a8ef880770e">this gist</a> into <code>~/ycm_extra_conf.py</code> and that should be it for userspace code!</li>
+<li>To configure the kernel for code completion, copy the contents of <a href="https://gist.github.com/naseer/6ada5a32580275e0ace9">this gist</a> into <code>~/ycm_extra_conf_kernel.py</code>. This may or may not work on all kernels, I’ve had varying levels of success depending on the level of clang support in that kernel version, It does seem to work fine with kernel 3.10.</li>
 </ul>
-
 <p><strong>UPDATE - Aug 25, 2015:</strong> Updated this post with links to the full config files and edited the ycm configs to avoid the need for sourcing the build environment.</p>
     </div>
 
@@ -474,6 +517,12 @@ if (!doNotTrack) {
 
 
 
+
+  
+    <script type="text/javascript" src="/js/load-photoswipe.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
 
 
 

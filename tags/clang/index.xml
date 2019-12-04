@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>clang on Random Bits</title>
@@ -20,8 +20,7 @@
       <guid>https://www.naseer.in/post/compile-commands/</guid>
       <description>The clang compilation database (compile_commands.json) is a json file that has instructions on how to compile your file. If your project uses soong, you can follow the instructions here
 However, if your project does not yet build with soong, you can use bear to generate it from make files on Android.
- Install Bear Create an incremental_build.sh script with the following contents and put it somwhere, like in ~/bin
-1 2 3 4 5 6  cd $ANDROID_BUILD_TOP .</description>
+ Install Bear Create an incremental_build.sh script with the following contents and put it somwhere, like in ~/bin  1 2 3 4 5 6  cd $ANDROID_BUILD_TOP .</description>
     </item>
     
   </channel>
