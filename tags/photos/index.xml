@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>photos on Random Bits</title>
-    <link>https://www.naseer.in/tags/photos/</link>
+    <link>https://www.naseer.dev/tags/photos/</link>
     <description>Recent content in photos on Random Bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Naseer Ahmed</copyright>
     <lastBuildDate>Tue, 03 Dec 2019 23:15:31 -0500</lastBuildDate>
     
-	<atom:link href="https://www.naseer.in/tags/photos/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.naseer.dev/tags/photos/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>America from the Air</title>
-      <link>https://www.naseer.in/post/skypics/</link>
+      <link>https://www.naseer.dev/post/skypics/</link>
       <pubDate>Tue, 03 Dec 2019 23:15:31 -0500</pubDate>
       
-      <guid>https://www.naseer.in/post/skypics/</guid>
+      <guid>https://www.naseer.dev/post/skypics/</guid>
       <description>&lt;p&gt;The skies were mostly clear at the start of a recent flight from the Bay Area heading back home so I took the opportunity to take some aerial pictures with my Pixel 4 XL,
 It was very intriguing to see the changing landscapes over the breadth of the continental US.
 I tried to identify some of the locations that I was flying over. I wanted to get every state but missed quite a bit of the flyover country in between due to cloudy weather.&lt;/p&gt;
@@ -212,10 +212,10 @@ I tried to identify some of the locations that I was flying over. I wanted to ge
     
     <item>
       <title>Kiwanis Heydenshore Park</title>
-      <link>https://www.naseer.in/post/kiwanis-heydenshore/</link>
+      <link>https://www.naseer.dev/post/kiwanis-heydenshore/</link>
       <pubDate>Sun, 22 Sep 2019 02:03:52 -0400</pubDate>
       
-      <guid>https://www.naseer.in/post/kiwanis-heydenshore/</guid>
+      <guid>https://www.naseer.dev/post/kiwanis-heydenshore/</guid>
       <description>&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -232,10 +232,10 @@ I tried to identify some of the locations that I was flying over. I wanted to ge
     
     <item>
       <title>Sunset at Wasaga Beach</title>
-      <link>https://www.naseer.in/post/wasaga-beach-sunset/</link>
+      <link>https://www.naseer.dev/post/wasaga-beach-sunset/</link>
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/post/wasaga-beach-sunset/</guid>
+      <guid>https://www.naseer.dev/post/wasaga-beach-sunset/</guid>
       <description>&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>compile_commands on Random Bits</title>
-    <link>https://www.naseer.in/tags/compile_commands/</link>
+    <link>https://www.naseer.dev/tags/compile_commands/</link>
     <description>Recent content in compile_commands on Random Bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Naseer Ahmed</copyright>
     <lastBuildDate>Tue, 08 Oct 2019 16:05:28 -0400</lastBuildDate>
     
-	<atom:link href="https://www.naseer.in/tags/compile_commands/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.naseer.dev/tags/compile_commands/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Compile Commands on Android</title>
-      <link>https://www.naseer.in/post/compile-commands/</link>
+      <link>https://www.naseer.dev/post/compile-commands/</link>
       <pubDate>Tue, 08 Oct 2019 16:05:28 -0400</pubDate>
       
-      <guid>https://www.naseer.in/post/compile-commands/</guid>
+      <guid>https://www.naseer.dev/post/compile-commands/</guid>
       <description>The clang compilation database (compile_commands.json) is a json file that has instructions on how to compile your file. If your project uses soong, you can follow the instructions here
 However, if your project does not yet build with soong, you can use bear to generate it from make files on Android.
  Install Bear Create an incremental_build.sh script with the following contents and put it somwhere, like in ~/bin  1 2 3 4 5 6  cd $ANDROID_BUILD_TOP .</description>

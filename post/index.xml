@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Random Bits</title>
-    <link>https://www.naseer.in/post/</link>
+    <link>https://www.naseer.dev/post/</link>
     <description>Recent content in Posts on Random Bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Naseer Ahmed</copyright>
     <lastBuildDate>Tue, 03 Dec 2019 23:15:31 -0500</lastBuildDate>
     
-	<atom:link href="https://www.naseer.in/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.naseer.dev/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>America from the Air</title>
-      <link>https://www.naseer.in/post/skypics/</link>
+      <link>https://www.naseer.dev/post/skypics/</link>
       <pubDate>Tue, 03 Dec 2019 23:15:31 -0500</pubDate>
       
-      <guid>https://www.naseer.in/post/skypics/</guid>
+      <guid>https://www.naseer.dev/post/skypics/</guid>
       <description>&lt;p&gt;The skies were mostly clear at the start of a recent flight from the Bay Area heading back home so I took the opportunity to take some aerial pictures with my Pixel 4 XL,
 It was very intriguing to see the changing landscapes over the breadth of the continental US.
 I tried to identify some of the locations that I was flying over. I wanted to get every state but missed quite a bit of the flyover country in between due to cloudy weather.&lt;/p&gt;
@@ -212,10 +212,10 @@ I tried to identify some of the locations that I was flying over. I wanted to ge
     
     <item>
       <title>Compile Commands on Android</title>
-      <link>https://www.naseer.in/post/compile-commands/</link>
+      <link>https://www.naseer.dev/post/compile-commands/</link>
       <pubDate>Tue, 08 Oct 2019 16:05:28 -0400</pubDate>
       
-      <guid>https://www.naseer.in/post/compile-commands/</guid>
+      <guid>https://www.naseer.dev/post/compile-commands/</guid>
       <description>The clang compilation database (compile_commands.json) is a json file that has instructions on how to compile your file. If your project uses soong, you can follow the instructions here
 However, if your project does not yet build with soong, you can use bear to generate it from make files on Android.
  Install Bear Create an incremental_build.sh script with the following contents and put it somwhere, like in ~/bin  1 2 3 4 5 6  cd $ANDROID_BUILD_TOP .</description>
@@ -223,10 +223,10 @@ However, if your project does not yet build with soong, you can use bear to gene
     
     <item>
       <title>Kiwanis Heydenshore Park</title>
-      <link>https://www.naseer.in/post/kiwanis-heydenshore/</link>
+      <link>https://www.naseer.dev/post/kiwanis-heydenshore/</link>
       <pubDate>Sun, 22 Sep 2019 02:03:52 -0400</pubDate>
       
-      <guid>https://www.naseer.in/post/kiwanis-heydenshore/</guid>
+      <guid>https://www.naseer.dev/post/kiwanis-heydenshore/</guid>
       <description>&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -243,19 +243,19 @@ However, if your project does not yet build with soong, you can use bear to gene
     
     <item>
       <title>Hugo Reboot</title>
-      <link>https://www.naseer.in/post/hugo-reboot/</link>
+      <link>https://www.naseer.dev/post/hugo-reboot/</link>
       <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/post/hugo-reboot/</guid>
+      <guid>https://www.naseer.dev/post/hugo-reboot/</guid>
       <description>My blog was previously based on Octopress - decided to just switch to Hugo today after I had a few issues with Ruby. So far the experience has been quite smooth and Hugo works well on Windows too. I&#39;m using a slightly modified version of this theme</description>
     </item>
     
     <item>
       <title>Sunset at Wasaga Beach</title>
-      <link>https://www.naseer.in/post/wasaga-beach-sunset/</link>
+      <link>https://www.naseer.dev/post/wasaga-beach-sunset/</link>
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/post/wasaga-beach-sunset/</guid>
+      <guid>https://www.naseer.dev/post/wasaga-beach-sunset/</guid>
       <description>&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -272,40 +272,40 @@ However, if your project does not yet build with soong, you can use bear to gene
     
     <item>
       <title>C/C&#43;&#43; Source Code Completion With YouCompleteMe and Vim for Android and the Linux Kernel</title>
-      <link>https://www.naseer.in/post/ycm-android/</link>
+      <link>https://www.naseer.dev/post/ycm-android/</link>
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/post/ycm-android/</guid>
+      <guid>https://www.naseer.dev/post/ycm-android/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://valloric.github.io/YouCompleteMe/&#34;&gt;YouCompleteMe&lt;/a&gt; is currently the best clang based completion engine for vim/neovim and there is also an emacs version.&lt;/p&gt;
 &lt;p&gt;A gif is worth a thousand words -&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.naseer.in/images/vim-ycm.gif&#34; alt=&#34;vim ycm completion&#34;&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src=&#34;https://www.naseer.dev/images/vim-ycm.gif&#34; alt=&#34;vim ycm completion&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Mermaid: Javascript Based Sequence Diagrams and Graphs</title>
-      <link>https://www.naseer.in/post/mermaidjs-live/</link>
+      <link>https://www.naseer.dev/post/mermaidjs-live/</link>
       <pubDate>Mon, 19 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/post/mermaidjs-live/</guid>
+      <guid>https://www.naseer.dev/post/mermaidjs-live/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/knsv/mermaid&#34;&gt;Mermaid&lt;/a&gt; is a nice javascript library to generate sequence diagrams, flowcharts and graphs from markdown-like-syntax. It is based on &lt;a href=&#34;http://d3js.org/&#34;&gt;d3.js&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;It also has a command line tool, but there is currently no option to style the output with that tool.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Of docking Stations 4k Monitors</title>
-      <link>https://www.naseer.in/post/docking-stations-4k-monitors/</link>
+      <link>https://www.naseer.dev/post/docking-stations-4k-monitors/</link>
       <pubDate>Thu, 30 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/post/docking-stations-4k-monitors/</guid>
+      <guid>https://www.naseer.dev/post/docking-stations-4k-monitors/</guid>
       <description>&lt;p&gt;Macbook Pros are powerful developer machines that you can hook up monitors and keyboards to to convert into nice workstations. Yet, Apple doesn’t provide any standard dock for them. Enter, the Caldigit Thunderbolt Station, which is a great little docking station for expanding peripherals for devices that support Thunderbolt.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Using Cscope to browse the Android source code</title>
-      <link>https://www.naseer.in/post/cscope/</link>
+      <link>https://www.naseer.dev/post/cscope/</link>
       <pubDate>Tue, 10 Aug 2010 23:31:32 -0400</pubDate>
       
-      <guid>https://www.naseer.in/post/cscope/</guid>
+      <guid>https://www.naseer.dev/post/cscope/</guid>
       <description>&lt;p&gt;Cscope can be a great tool to browse the Android source code. Here is what I did to get it working with vim&lt;/p&gt;
 &lt;p&gt;Get cscope_maps.vim from &lt;a href=&#34;http://cscope.sourceforge.net/cscope_maps.vim&#34;&gt;here&lt;/a&gt; and place it into your &lt;code&gt;~.vim/plugin&lt;/code&gt; directory. (create this dir if it does not exist)
 Add the following lines to your &lt;code&gt;.vimrc&lt;/code&gt;&lt;/p&gt;</description>

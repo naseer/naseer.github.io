@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>development on Random Bits</title>
-    <link>https://www.naseer.in/tags/development/</link>
+    <link>https://www.naseer.dev/tags/development/</link>
     <description>Recent content in development on Random Bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Naseer Ahmed</copyright>
     <lastBuildDate>Tue, 08 Oct 2019 16:05:28 -0400</lastBuildDate>
     
-	<atom:link href="https://www.naseer.in/tags/development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.naseer.dev/tags/development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Compile Commands on Android</title>
-      <link>https://www.naseer.in/post/compile-commands/</link>
+      <link>https://www.naseer.dev/post/compile-commands/</link>
       <pubDate>Tue, 08 Oct 2019 16:05:28 -0400</pubDate>
       
-      <guid>https://www.naseer.in/post/compile-commands/</guid>
+      <guid>https://www.naseer.dev/post/compile-commands/</guid>
       <description>The clang compilation database (compile_commands.json) is a json file that has instructions on how to compile your file. If your project uses soong, you can follow the instructions here
 However, if your project does not yet build with soong, you can use bear to generate it from make files on Android.
  Install Bear Create an incremental_build.sh script with the following contents and put it somwhere, like in ~/bin  1 2 3 4 5 6  cd $ANDROID_BUILD_TOP .</description>
@@ -25,31 +25,31 @@ However, if your project does not yet build with soong, you can use bear to gene
     
     <item>
       <title>C/C&#43;&#43; Source Code Completion With YouCompleteMe and Vim for Android and the Linux Kernel</title>
-      <link>https://www.naseer.in/post/ycm-android/</link>
+      <link>https://www.naseer.dev/post/ycm-android/</link>
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/post/ycm-android/</guid>
+      <guid>https://www.naseer.dev/post/ycm-android/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://valloric.github.io/YouCompleteMe/&#34;&gt;YouCompleteMe&lt;/a&gt; is currently the best clang based completion engine for vim/neovim and there is also an emacs version.&lt;/p&gt;
 &lt;p&gt;A gif is worth a thousand words -&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.naseer.in/images/vim-ycm.gif&#34; alt=&#34;vim ycm completion&#34;&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src=&#34;https://www.naseer.dev/images/vim-ycm.gif&#34; alt=&#34;vim ycm completion&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Mermaid: Javascript Based Sequence Diagrams and Graphs</title>
-      <link>https://www.naseer.in/post/mermaidjs-live/</link>
+      <link>https://www.naseer.dev/post/mermaidjs-live/</link>
       <pubDate>Mon, 19 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/post/mermaidjs-live/</guid>
+      <guid>https://www.naseer.dev/post/mermaidjs-live/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/knsv/mermaid&#34;&gt;Mermaid&lt;/a&gt; is a nice javascript library to generate sequence diagrams, flowcharts and graphs from markdown-like-syntax. It is based on &lt;a href=&#34;http://d3js.org/&#34;&gt;d3.js&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;It also has a command line tool, but there is currently no option to style the output with that tool.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Using Cscope to browse the Android source code</title>
-      <link>https://www.naseer.in/post/cscope/</link>
+      <link>https://www.naseer.dev/post/cscope/</link>
       <pubDate>Tue, 10 Aug 2010 23:31:32 -0400</pubDate>
       
-      <guid>https://www.naseer.in/post/cscope/</guid>
+      <guid>https://www.naseer.dev/post/cscope/</guid>
       <description>&lt;p&gt;Cscope can be a great tool to browse the Android source code. Here is what I did to get it working with vim&lt;/p&gt;
 &lt;p&gt;Get cscope_maps.vim from &lt;a href=&#34;http://cscope.sourceforge.net/cscope_maps.vim&#34;&gt;here&lt;/a&gt; and place it into your &lt;code&gt;~.vim/plugin&lt;/code&gt; directory. (create this dir if it does not exist)
 Add the following lines to your &lt;code&gt;.vimrc&lt;/code&gt;&lt;/p&gt;</description>

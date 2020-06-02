@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cscope on Random Bits</title>
-    <link>https://www.naseer.in/tags/cscope/</link>
+    <link>https://www.naseer.dev/tags/cscope/</link>
     <description>Recent content in cscope on Random Bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Naseer Ahmed</copyright>
     <lastBuildDate>Tue, 10 Aug 2010 23:31:32 -0400</lastBuildDate>
     
-	<atom:link href="https://www.naseer.in/tags/cscope/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.naseer.dev/tags/cscope/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using Cscope to browse the Android source code</title>
-      <link>https://www.naseer.in/post/cscope/</link>
+      <link>https://www.naseer.dev/post/cscope/</link>
       <pubDate>Tue, 10 Aug 2010 23:31:32 -0400</pubDate>
       
-      <guid>https://www.naseer.in/post/cscope/</guid>
+      <guid>https://www.naseer.dev/post/cscope/</guid>
       <description>&lt;p&gt;Cscope can be a great tool to browse the Android source code. Here is what I did to get it working with vim&lt;/p&gt;
 &lt;p&gt;Get cscope_maps.vim from &lt;a href=&#34;http://cscope.sourceforge.net/cscope_maps.vim&#34;&gt;here&lt;/a&gt; and place it into your &lt;code&gt;~.vim/plugin&lt;/code&gt; directory. (create this dir if it does not exist)
 Add the following lines to your &lt;code&gt;.vimrc&lt;/code&gt;&lt;/p&gt;</description>

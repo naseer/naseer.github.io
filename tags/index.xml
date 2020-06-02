@@ -2,202 +2,202 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Random Bits</title>
-    <link>https://www.naseer.in/tags/</link>
+    <link>https://www.naseer.dev/tags/</link>
     <description>Recent content in Tags on Random Bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Naseer Ahmed</copyright>
     <lastBuildDate>Tue, 03 Dec 2019 23:15:31 -0500</lastBuildDate>
     
-	<atom:link href="https://www.naseer.in/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.naseer.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>photos</title>
-      <link>https://www.naseer.in/tags/photos/</link>
+      <link>https://www.naseer.dev/tags/photos/</link>
       <pubDate>Tue, 03 Dec 2019 23:15:31 -0500</pubDate>
       
-      <guid>https://www.naseer.in/tags/photos/</guid>
+      <guid>https://www.naseer.dev/tags/photos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>travel</title>
-      <link>https://www.naseer.in/tags/travel/</link>
+      <link>https://www.naseer.dev/tags/travel/</link>
       <pubDate>Tue, 03 Dec 2019 23:15:31 -0500</pubDate>
       
-      <guid>https://www.naseer.in/tags/travel/</guid>
+      <guid>https://www.naseer.dev/tags/travel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>android</title>
-      <link>https://www.naseer.in/tags/android/</link>
+      <link>https://www.naseer.dev/tags/android/</link>
       <pubDate>Tue, 08 Oct 2019 16:05:28 -0400</pubDate>
       
-      <guid>https://www.naseer.in/tags/android/</guid>
+      <guid>https://www.naseer.dev/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>clang</title>
-      <link>https://www.naseer.in/tags/clang/</link>
+      <link>https://www.naseer.dev/tags/clang/</link>
       <pubDate>Tue, 08 Oct 2019 16:05:28 -0400</pubDate>
       
-      <guid>https://www.naseer.in/tags/clang/</guid>
+      <guid>https://www.naseer.dev/tags/clang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>compile_commands</title>
-      <link>https://www.naseer.in/tags/compile_commands/</link>
+      <link>https://www.naseer.dev/tags/compile_commands/</link>
       <pubDate>Tue, 08 Oct 2019 16:05:28 -0400</pubDate>
       
-      <guid>https://www.naseer.in/tags/compile_commands/</guid>
+      <guid>https://www.naseer.dev/tags/compile_commands/</guid>
       <description></description>
     </item>
     
     <item>
       <title>development</title>
-      <link>https://www.naseer.in/tags/development/</link>
+      <link>https://www.naseer.dev/tags/development/</link>
       <pubDate>Tue, 08 Oct 2019 16:05:28 -0400</pubDate>
       
-      <guid>https://www.naseer.in/tags/development/</guid>
+      <guid>https://www.naseer.dev/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nature</title>
-      <link>https://www.naseer.in/tags/nature/</link>
+      <link>https://www.naseer.dev/tags/nature/</link>
       <pubDate>Sun, 22 Sep 2019 02:03:52 -0400</pubDate>
       
-      <guid>https://www.naseer.in/tags/nature/</guid>
+      <guid>https://www.naseer.dev/tags/nature/</guid>
       <description></description>
     </item>
     
     <item>
       <title>aosp</title>
-      <link>https://www.naseer.in/tags/aosp/</link>
+      <link>https://www.naseer.dev/tags/aosp/</link>
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/tags/aosp/</guid>
+      <guid>https://www.naseer.dev/tags/aosp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>c&#43;&#43;</title>
-      <link>https://www.naseer.in/tags/c&#43;&#43;/</link>
+      <link>https://www.naseer.dev/tags/c&#43;&#43;/</link>
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/tags/c&#43;&#43;/</guid>
+      <guid>https://www.naseer.dev/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     
     <item>
       <title>emacs</title>
-      <link>https://www.naseer.in/tags/emacs/</link>
+      <link>https://www.naseer.dev/tags/emacs/</link>
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/tags/emacs/</guid>
+      <guid>https://www.naseer.dev/tags/emacs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>intellisense</title>
-      <link>https://www.naseer.in/tags/intellisense/</link>
+      <link>https://www.naseer.dev/tags/intellisense/</link>
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/tags/intellisense/</guid>
+      <guid>https://www.naseer.dev/tags/intellisense/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>https://www.naseer.in/tags/linux/</link>
+      <link>https://www.naseer.dev/tags/linux/</link>
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/tags/linux/</guid>
+      <guid>https://www.naseer.dev/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vim</title>
-      <link>https://www.naseer.in/tags/vim/</link>
+      <link>https://www.naseer.dev/tags/vim/</link>
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/tags/vim/</guid>
+      <guid>https://www.naseer.dev/tags/vim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>d3</title>
-      <link>https://www.naseer.in/tags/d3/</link>
+      <link>https://www.naseer.dev/tags/d3/</link>
       <pubDate>Mon, 19 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/tags/d3/</guid>
+      <guid>https://www.naseer.dev/tags/d3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mermaid</title>
-      <link>https://www.naseer.in/tags/mermaid/</link>
+      <link>https://www.naseer.dev/tags/mermaid/</link>
       <pubDate>Mon, 19 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/tags/mermaid/</guid>
+      <guid>https://www.naseer.dev/tags/mermaid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>webapp</title>
-      <link>https://www.naseer.in/tags/webapp/</link>
+      <link>https://www.naseer.dev/tags/webapp/</link>
       <pubDate>Mon, 19 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/tags/webapp/</guid>
+      <guid>https://www.naseer.dev/tags/webapp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>4k</title>
-      <link>https://www.naseer.in/tags/4k/</link>
+      <link>https://www.naseer.dev/tags/4k/</link>
       <pubDate>Thu, 30 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/tags/4k/</guid>
+      <guid>https://www.naseer.dev/tags/4k/</guid>
       <description></description>
     </item>
     
     <item>
       <title>caldigit</title>
-      <link>https://www.naseer.in/tags/caldigit/</link>
+      <link>https://www.naseer.dev/tags/caldigit/</link>
       <pubDate>Thu, 30 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/tags/caldigit/</guid>
+      <guid>https://www.naseer.dev/tags/caldigit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dock</title>
-      <link>https://www.naseer.in/tags/dock/</link>
+      <link>https://www.naseer.dev/tags/dock/</link>
       <pubDate>Thu, 30 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/tags/dock/</guid>
+      <guid>https://www.naseer.dev/tags/dock/</guid>
       <description></description>
     </item>
     
     <item>
       <title>monitors</title>
-      <link>https://www.naseer.in/tags/monitors/</link>
+      <link>https://www.naseer.dev/tags/monitors/</link>
       <pubDate>Thu, 30 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.naseer.in/tags/monitors/</guid>
+      <guid>https://www.naseer.dev/tags/monitors/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cscope</title>
-      <link>https://www.naseer.in/tags/cscope/</link>
+      <link>https://www.naseer.dev/tags/cscope/</link>
       <pubDate>Tue, 10 Aug 2010 23:31:32 -0400</pubDate>
       
-      <guid>https://www.naseer.in/tags/cscope/</guid>
+      <guid>https://www.naseer.dev/tags/cscope/</guid>
       <description></description>
     </item>
     

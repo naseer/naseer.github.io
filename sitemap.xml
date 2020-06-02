@@ -1,246 +1,246 @@
-<?xml-stylesheet type="text/xsl" href="https://www.naseer.in/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://www.naseer.dev/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.naseer.in/about/</loc>
+    <loc>https://www.naseer.dev/about/</loc>
     <lastmod>2019-09-21T21:41:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/</loc>
+    <loc>https://www.naseer.dev/</loc>
     <lastmod>2019-12-03T23:15:31-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/post/skypics/</loc>
+    <loc>https://www.naseer.dev/post/skypics/</loc>
     <lastmod>2019-12-03T23:15:31-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/photos/</loc>
+    <loc>https://www.naseer.dev/tags/photos/</loc>
     <lastmod>2019-12-03T23:15:31-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/post/</loc>
+    <loc>https://www.naseer.dev/post/</loc>
     <lastmod>2019-12-03T23:15:31-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/</loc>
+    <loc>https://www.naseer.dev/tags/</loc>
     <lastmod>2019-12-03T23:15:31-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/travel/</loc>
+    <loc>https://www.naseer.dev/tags/travel/</loc>
     <lastmod>2019-12-03T23:15:31-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/android/</loc>
+    <loc>https://www.naseer.dev/tags/android/</loc>
     <lastmod>2019-10-08T16:05:28-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/clang/</loc>
+    <loc>https://www.naseer.dev/tags/clang/</loc>
     <lastmod>2019-10-08T16:05:28-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/post/compile-commands/</loc>
+    <loc>https://www.naseer.dev/post/compile-commands/</loc>
     <lastmod>2019-10-08T16:05:28-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/compile_commands/</loc>
+    <loc>https://www.naseer.dev/tags/compile_commands/</loc>
     <lastmod>2019-10-08T16:05:28-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/development/</loc>
+    <loc>https://www.naseer.dev/tags/development/</loc>
     <lastmod>2019-10-08T16:05:28-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/post/kiwanis-heydenshore/</loc>
+    <loc>https://www.naseer.dev/post/kiwanis-heydenshore/</loc>
     <lastmod>2019-09-22T02:03:52-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/nature/</loc>
+    <loc>https://www.naseer.dev/tags/nature/</loc>
     <lastmod>2019-09-22T02:03:52-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/post/hugo-reboot/</loc>
+    <loc>https://www.naseer.dev/post/hugo-reboot/</loc>
     <lastmod>2019-09-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/post/wasaga-beach-sunset/</loc>
+    <loc>https://www.naseer.dev/post/wasaga-beach-sunset/</loc>
     <lastmod>2019-08-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/aosp/</loc>
+    <loc>https://www.naseer.dev/tags/aosp/</loc>
     <lastmod>2015-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/c&#43;&#43;/</loc>
+    <loc>https://www.naseer.dev/tags/c&#43;&#43;/</loc>
     <lastmod>2015-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/post/ycm-android/</loc>
+    <loc>https://www.naseer.dev/post/ycm-android/</loc>
     <lastmod>2015-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/emacs/</loc>
+    <loc>https://www.naseer.dev/tags/emacs/</loc>
     <lastmod>2015-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/intellisense/</loc>
+    <loc>https://www.naseer.dev/tags/intellisense/</loc>
     <lastmod>2015-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/linux/</loc>
+    <loc>https://www.naseer.dev/tags/linux/</loc>
     <lastmod>2015-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/vim/</loc>
+    <loc>https://www.naseer.dev/tags/vim/</loc>
     <lastmod>2015-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/d3/</loc>
+    <loc>https://www.naseer.dev/tags/d3/</loc>
     <lastmod>2015-01-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/mermaid/</loc>
+    <loc>https://www.naseer.dev/tags/mermaid/</loc>
     <lastmod>2015-01-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/post/mermaidjs-live/</loc>
+    <loc>https://www.naseer.dev/post/mermaidjs-live/</loc>
     <lastmod>2015-01-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/webapp/</loc>
+    <loc>https://www.naseer.dev/tags/webapp/</loc>
     <lastmod>2015-01-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/4k/</loc>
+    <loc>https://www.naseer.dev/tags/4k/</loc>
     <lastmod>2014-10-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/caldigit/</loc>
+    <loc>https://www.naseer.dev/tags/caldigit/</loc>
     <lastmod>2014-10-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/dock/</loc>
+    <loc>https://www.naseer.dev/tags/dock/</loc>
     <lastmod>2014-10-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/monitors/</loc>
+    <loc>https://www.naseer.dev/tags/monitors/</loc>
     <lastmod>2014-10-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/post/docking-stations-4k-monitors/</loc>
+    <loc>https://www.naseer.dev/post/docking-stations-4k-monitors/</loc>
     <lastmod>2014-10-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/tags/cscope/</loc>
+    <loc>https://www.naseer.dev/tags/cscope/</loc>
     <lastmod>2010-08-10T23:31:32-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/post/cscope/</loc>
+    <loc>https://www.naseer.dev/post/cscope/</loc>
     <lastmod>2010-08-10T23:31:32-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.naseer.in/categories/</loc>
+    <loc>https://www.naseer.dev/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

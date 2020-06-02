@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Random Bits</title>
-    <link>https://www.naseer.in/</link>
+    <link>https://www.naseer.dev/</link>
     <description>Recent content on Random Bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Naseer Ahmed</copyright>
     <lastBuildDate>Tue, 03 Dec 2019 23:15:31 -0500</lastBuildDate>
     
-        <atom:link href="https://www.naseer.in/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.naseer.dev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://www.naseer.in/about/</link>
+      <link>https://www.naseer.dev/about/</link>
       <pubDate>Sat, 21 Sep 2019 21:38:52 +0800</pubDate>
       
-      <guid>https://www.naseer.in/about/</guid>
+      <guid>https://www.naseer.dev/about/</guid>
       
         <description>I&#39;m (Mohammed) Naseer Ahmed, proud father of two kids and an embedded software developer based in Toronto, Canada. I currently work at Qualcomm on Linux/Android display HALs. I love following trends in technology and am especially interested in Mobile Devices, IoT, Graphics, Display. I like to explore nature, hike and fish. I update this site very infrequently on random things that interest me.</description>
       
@@ -25,10 +25,10 @@
     
     <item>
       <title>Posts</title>
-      <link>https://www.naseer.in/post/</link>
+      <link>https://www.naseer.dev/post/</link>
       <pubDate>Tue, 03 Dec 2019 23:15:31 -0500</pubDate>
       
-      <guid>https://www.naseer.in/post/</guid>
+      <guid>https://www.naseer.dev/post/</guid>
       
         <description></description>
       
