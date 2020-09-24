@@ -51,7 +51,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.7f5c3343c15cc154516aaed07c5a993f26f4600d0c51a7588fd39ca70e758f91.css" integrity="sha256-f1wzQ8FcwVRRaq7QfFqZPyb0YA0MUadYj9Ocpw51j5E=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.484a805d1398cc856028d1627a8889914f0a56e2e6dd56fda888b4d1d635719e.css" integrity="sha256-SEqAXROYzIVgKNFieoiJkU8KVuLm3Vb9qIi00dY1cZ4=" media="screen" crossorigin="anonymous">
 
 
 
@@ -61,7 +61,7 @@
 <meta property="og:description" content="Hi, I&#39;m Naseer - I&#39;m an embedded developer located in Toronto, Canada" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.naseer.dev/" />
-<meta property="og:updated_time" content="2020-09-23T22:30:33-04:00" />
+<meta property="og:updated_time" content="2020-09-24T00:11:50-04:00" />
 <meta itemprop="name" content="">
 <meta itemprop="description" content="Hi, I&#39;m Naseer - I&#39;m an embedded developer located in Toronto, Canada">
 <meta name="twitter:card" content="summary"/>
@@ -250,6 +250,105 @@ if (!doNotTrack) {
     
   
   
+  
+    <article class="post bg-white">
+  <header class="post-header">
+    <h1 class="post-title">
+      
+      <a class="post-link" href="/post/hidutil/">Hyper Key on Mac without Karabiner</a>
+    </h1>
+    
+    <div class="post-meta">
+      <time datetime="2020-09-24" class="post-time">
+        2020-09-24
+      </time>
+      
+      
+      
+      
+    </div>
+  </header>
+  
+  <div class="post-content">
+    
+    <div class="post-summary">
+      <p>A Hyper Key is an extra modifier key that can be used to add extra keyboard shortcuts in tools such as <a href="http://www.hammerspoon.org/">hammerspoon</a>.
+The most common method on a Mac was to use your Caps Lock key as your Hyper key using a tool called <a href="https://karabiner-elements.pqrs.org/">Karabiner Elements</a>.
+The issue with Karabiner though is that it is a kernel extension and keeps running into problems with newer OS X releases.
+If your only use case for Karabiner is to remap the Caps Lock key - you may be able to use the OS X native <code>hidutil</code> utility to achieve the same result.</p>
+<p>For example, the code below remaps the <code>Caps Lock</code> key to <code>F18</code>.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">hidutil property --set <span class="se">\
+</span><span class="se"></span> <span class="s1">&#39;{&#34;UserKeyMapping&#34;:[{&#34;HIDKeyboardModifierMappingSrc&#34;:0x700000039,
+</span><span class="s1"> &#34;HIDKeyboardModifierMappingDst&#34;:0x70000006D}]}&#39;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><code>F18</code> can later on be used in hammerspoon as a modifier to bind to various functions.</p>
+<p>The above  <code>hidutil</code> setting does not persist after reboot - so it can be configured to be set at boot using <code>launchctl</code></p>
+<p>Put the xml below into <code>~/Library/LaunchAgents/com.local.KeyRemapping.plist</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-xml" data-lang="xml"><span class="cp">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</span>
+<span class="cp">&lt;!DOCTYPE plist PUBLIC &#34;-//Apple//DTD PLIST 1.0//EN&#34; &#34;http://www.apple.com/DTDs/PropertyList-1.0.dtd&#34;&gt;</span>
+<span class="nt">&lt;plist</span> <span class="na">version=</span><span class="s">&#34;1.0&#34;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;dict&gt;</span>
+    <span class="nt">&lt;key&gt;</span>Label<span class="nt">&lt;/key&gt;</span>
+    <span class="nt">&lt;string&gt;</span>com.local.KeyRemapping<span class="nt">&lt;/string&gt;</span>
+    <span class="nt">&lt;key&gt;</span>ProgramArguments<span class="nt">&lt;/key&gt;</span>
+    <span class="nt">&lt;array&gt;</span>
+        <span class="nt">&lt;string&gt;</span>/usr/bin/hidutil<span class="nt">&lt;/string&gt;</span>
+        <span class="nt">&lt;string&gt;</span>property<span class="nt">&lt;/string&gt;</span>
+        <span class="nt">&lt;string&gt;</span>--set<span class="nt">&lt;/string&gt;</span>
+        <span class="nt">&lt;string&gt;</span>{&#34;UserKeyMapping&#34;:[
+            {
+              &#34;HIDKeyboardModifierMappingSrc&#34;: 0x700000039,
+              &#34;HIDKeyboardModifierMappingDst&#34;: 0x70000006D
+            }
+        ]}<span class="nt">&lt;/string&gt;</span>
+    <span class="nt">&lt;/array&gt;</span>
+    <span class="nt">&lt;key&gt;</span>RunAtLoad<span class="nt">&lt;/key&gt;</span>
+    <span class="nt">&lt;true/&gt;</span>
+<span class="nt">&lt;/dict&gt;</span>
+<span class="nt">&lt;/plist&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>There is also a handy generator located <a href="https://hidutil-generator.netlify.app/">here</a> in case you&rsquo;d like to remap other keys.</p>
+
+    </div>
+    
+  </div>
+</article>
+
   
     <article class="post bg-white">
   <header class="post-header">
@@ -813,170 +912,6 @@ mm -j32
 </article>
 
   
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/cscope/">Using Cscope to browse the Android source code</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2010-08-10" class="post-time">
-        2010-08-10
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      <p>Cscope can be a great tool to browse the Android source code. Here is what I did to get it working with vim</p>
-<p>Get cscope_maps.vim from <a href="http://cscope.sourceforge.net/cscope_maps.vim">here</a> and place it into your <code>~.vim/plugin</code> directory. (create this dir if it does not exist)
-Add the following lines to your <code>.vimrc</code></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-vim" data-lang="vim"><span class="nx">set</span> <span class="nx">nocsverb</span><span class="err">
-</span><span class="err"></span><span class="k">if</span> <span class="nx">filereadable</span><span class="p">(</span><span class="s2">&#34;cscope.out&#34;</span><span class="p">)</span><span class="err">
-</span><span class="err"></span><span class="k">else</span><span class="err">
-</span><span class="err"></span>    <span class="k">if</span> $<span class="nx">ANDROID_BUILD_TOP</span> <span class="p">!=</span><span class="s2">&#34;&#34;</span><span class="err">
-</span><span class="err"></span><span class="c">        &#34;This assumes you have sourced the Android build environment</span><span class="err">
-</span><span class="err"></span>        <span class="nx">cscope</span> <span class="nx">add</span> $<span class="nx">ANDROID_BUILD_TOP</span>/<span class="nx">cscope</span>.<span class="nx">out</span><span class="err">
-</span><span class="err"></span> <span class="k">else</span><span class="err">
-</span><span class="err"></span><span class="c">        &#34;Or, you can point to your android source directory in $ANDROID_DIR</span><span class="err">
-</span><span class="err"></span>        <span class="nx">cscope</span> <span class="nx">add</span> $<span class="nx">ANDROID_DIR</span>/<span class="nx">cscope</span>.<span class="nx">out</span><span class="err">
-</span><span class="err"></span>    <span class="k">endif</span><span class="err">
-</span><span class="err"></span><span class="k">endif</span><span class="err">
-</span></code></pre></td></tr></table>
-</div>
-</div><p>Use the following shell script to create the Android cscope database. You can add/remove search paths based on relevance to you.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span><span class="lnt">36
-</span><span class="lnt">37
-</span><span class="lnt">38
-</span><span class="lnt">39
-</span><span class="lnt">40
-</span><span class="lnt">41
-</span><span class="lnt">42
-</span><span class="lnt">43
-</span><span class="lnt">44
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">
-<span class="c1">#!/bin/bash</span>
-
-<span class="nb">echo</span> <span class="s2">&#34;Listing Android files ...&#34;</span>
-
-find <span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/bionic&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/bootable&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/build&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/dalvik&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/development&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/device&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/external&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/frameworks&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/hardware&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/packages&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/system&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/vendor&#34;</span>
--name <span class="s1">&#39;*.java&#39;</span> -print -o
--name <span class="s1">&#39;*.aidl&#39;</span> -print -o
--name <span class="s1">&#39;*.hpp&#39;</span> -print -o
--name <span class="s1">&#39;*.cpp&#39;</span>  -print -o
--name <span class="s1">&#39;*.xml&#39;</span>  -print -o
--name <span class="s1">&#39;*.mk&#39;</span>  -print -o
--name <span class="s1">&#39;*.[chxsS]&#39;</span> -print &gt; cscope.files
-
-<span class="nb">echo</span> <span class="s2">&#34;Listing Kernel files ...&#34;</span>
-find  kernel
--path <span class="s2">&#34;kernel/arch/*&#34;</span> -prune -o
--path <span class="s2">&#34;kernel/tmp*&#34;</span> -prune -o
--path <span class="s2">&#34;kernel/Documentation*&#34;</span> -prune -o
--path <span class="s2">&#34;kernel/scripts*&#34;</span> -prune -o
--name <span class="s2">&#34;*.[chxsS]&#34;</span> -print &gt;&gt; cscope.files
-
-find <span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/include/&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/kernel/&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/common/&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/boot/&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/lib/&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/mm/&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/mach-msm/&#34;</span> -name <span class="s2">&#34;*.[chxsS]&#34;</span> -print &gt;&gt; cscope.files
-
-<span class="nb">echo</span> <span class="s2">&#34;Creating cscope DB ...&#34;</span>
-/usr/bin/cscope -b -q -k
-<span class="nb">echo</span> <span class="s2">&#34;Done&#34;</span>
-</code></pre></td></tr></table>
-</div>
-</div><ul>
-<li>Go to your Android source code directory and run the above script</li>
-<li>source <code>build/envsetup.sh</code> and <code>lunch/choosecombo</code> as usual</li>
-<li>open vim - your cscope DB should be sourced into this vim instance</li>
-<li>Run <code>:cs find f filename</code> to go to a file</li>
-<li>If you want to go to the definition of a symbol, press <code>Ctrl+]</code></li>
-<li>If you want to find all references to the token under the cursor, press <code>Ctrl +\</code> then <code>s</code></li>
-<li>If you want to go to the filename under the cursor, press <code>Ctrl +\</code> then <code>f</code></li>
-<li>The other shortcuts are in the <code>cscope_maps.vim</code> that you downloaded above</li>
-<li>You can also run <code>:cscope help</code> for more help on cscope in vim</li>
-</ul>
-    </div>
-    
-  </div>
-</article>
-
-  
 </section>
 
 
@@ -996,6 +931,22 @@ find <span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/
 
   
   
+
+  
+  
+  <nav class="pagination">
+    <ul>
+      
+      <li  class="active" >
+        <a href="/">1</a>
+      </li>
+      
+      <li >
+        <a href="/page/2/">2</a>
+      </li>
+      
+    </ul>
+  </nav>
 
   
   
