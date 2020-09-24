@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Naseer Ahmed</copyright>
-    <lastBuildDate>Tue, 10 Aug 2010 23:31:32 -0400</lastBuildDate>
-    
-	<atom:link href="https://www.naseer.dev/tags/cscope/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 10 Aug 2010 23:31:32 -0400</lastBuildDate><atom:link href="https://www.naseer.dev/tags/cscope/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Cscope to browse the Android source code</title>
       <link>https://www.naseer.dev/post/cscope/</link>

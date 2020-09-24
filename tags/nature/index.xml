@@ -7,18 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Naseer Ahmed</copyright>
-    <lastBuildDate>Sun, 22 Sep 2019 02:03:52 -0400</lastBuildDate>
-    
-	<atom:link href="https://www.naseer.dev/tags/nature/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 22 Sep 2019 02:03:52 -0400</lastBuildDate><atom:link href="https://www.naseer.dev/tags/nature/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kiwanis Heydenshore Park</title>
       <link>https://www.naseer.dev/post/kiwanis-heydenshore/</link>
       <pubDate>Sun, 22 Sep 2019 02:03:52 -0400</pubDate>
       
       <guid>https://www.naseer.dev/post/kiwanis-heydenshore/</guid>
-      <description>&lt;div class=&#34;box&#34;&gt;
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.naseer.dev/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
@@ -38,7 +35,8 @@
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.naseer.dev/post/wasaga-beach-sunset/</guid>
-      <description>&lt;div class=&#34;box&#34;&gt;
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.naseer.dev/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;

@@ -34,7 +34,7 @@ Get cscope_maps.vim from here and place it into your ~.vim/plugin directory. (cr
 
 
 
-<meta name="generator" content="Hugo 0.60.1" />
+<meta name="generator" content="Hugo 0.75.1" />
 
 
 <link rel="canonical" href="https://www.naseer.dev/post/cscope/" />
@@ -53,7 +53,7 @@ Get cscope_maps.vim from here and place it into your ~.vim/plugin directory. (cr
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.e8754cb4a03587553d84e655353dd328b6785e5d30cbebaa21d55869922d653a.css" integrity="sha256-6HVMtKA1h1U9hOZVNT3TKLZ4Xl0wy&#43;uqIdVYaZItZTo=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.5f35cf2988df05ddaf1163db4405dc1f9fe935052ddf4648303e253b7747b0a5.css" integrity="sha256-XzXPKYjfBd2vEWPbRAXcH5/pNQUt30ZIMD4lO3dHsKU=" media="screen" crossorigin="anonymous">
 
 
 
@@ -77,7 +77,8 @@ Add the following lines to your .vimrc">
 
 
 
-<meta itemprop="keywords" content="android,development,cscope," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="android,development,cscope," />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Using Cscope to browse the Android source code"/>
 <meta name="twitter:description" content="Cscope can be a great tool to browse the Android source code. Here is what I did to get it working with vim
 Get cscope_maps.vim from here and place it into your ~.vim/plugin directory. (create this dir if it does not exist)
@@ -304,7 +305,7 @@ Add the following lines to your <code>.vimrc</code></p>
 <pre class="chroma"><code class="language-vim" data-lang="vim"><span class="nx">set</span> <span class="nx">nocsverb</span><span class="err">
 </span><span class="err"></span><span class="k">if</span> <span class="nx">filereadable</span><span class="p">(</span><span class="s2">&#34;cscope.out&#34;</span><span class="p">)</span><span class="err">
 </span><span class="err"></span><span class="k">else</span><span class="err">
-</span><span class="err"></span>    <span class="k">if</span> $<span class="nx">ANDROID_BUILD_TOP</span> <span class="p">!</span><span class="p">=</span><span class="s2">&#34;&#34;</span><span class="err">
+</span><span class="err"></span>    <span class="k">if</span> $<span class="nx">ANDROID_BUILD_TOP</span> <span class="p">!=</span><span class="s2">&#34;&#34;</span><span class="err">
 </span><span class="err"></span><span class="c">        &#34;This assumes you have sourced the Android build environment</span><span class="err">
 </span><span class="err"></span>        <span class="nx">cscope</span> <span class="nx">add</span> $<span class="nx">ANDROID_BUILD_TOP</span>/<span class="nx">cscope</span>.<span class="nx">out</span><span class="err">
 </span><span class="err"></span> <span class="k">else</span><span class="err">
@@ -368,18 +369,18 @@ Add the following lines to your <code>.vimrc</code></p>
 
 <span class="nb">echo</span> <span class="s2">&#34;Listing Android files ...&#34;</span>
 
-find <span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/bionic</span><span class="s2">&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/bootable</span><span class="s2">&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/build</span><span class="s2">&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/dalvik</span><span class="s2">&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/development</span><span class="s2">&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/device</span><span class="s2">&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/external</span><span class="s2">&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/frameworks</span><span class="s2">&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/hardware</span><span class="s2">&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/packages</span><span class="s2">&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/system</span><span class="s2">&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/vendor</span><span class="s2">&#34;</span>
+find <span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/bionic&#34;</span>
+<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/bootable&#34;</span>
+<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/build&#34;</span>
+<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/dalvik&#34;</span>
+<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/development&#34;</span>
+<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/device&#34;</span>
+<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/external&#34;</span>
+<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/frameworks&#34;</span>
+<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/hardware&#34;</span>
+<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/packages&#34;</span>
+<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/system&#34;</span>
+<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/vendor&#34;</span>
 -name <span class="s1">&#39;*.java&#39;</span> -print -o
 -name <span class="s1">&#39;*.aidl&#39;</span> -print -o
 -name <span class="s1">&#39;*.hpp&#39;</span> -print -o
@@ -396,13 +397,13 @@ find  kernel
 -path <span class="s2">&#34;kernel/scripts*&#34;</span> -prune -o
 -name <span class="s2">&#34;*.[chxsS]&#34;</span> -print &gt;&gt; cscope.files
 
-find <span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/include/</span><span class="s2">&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/kernel/</span><span class="s2">&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/common/</span><span class="s2">&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/boot/</span><span class="s2">&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/lib/</span><span class="s2">&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/mm/</span><span class="s2">&#34;</span>
-<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/mach-msm/</span><span class="s2">&#34;</span> -name <span class="s2">&#34;*.[chxsS]&#34;</span> -print &gt;&gt; cscope.files
+find <span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/include/&#34;</span>
+<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/kernel/&#34;</span>
+<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/common/&#34;</span>
+<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/boot/&#34;</span>
+<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/lib/&#34;</span>
+<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/mm/&#34;</span>
+<span class="s2">&#34;</span><span class="nv">$PWD</span><span class="s2">/kernel/arch/arm/mach-msm/&#34;</span> -name <span class="s2">&#34;*.[chxsS]&#34;</span> -print &gt;&gt; cscope.files
 
 <span class="nb">echo</span> <span class="s2">&#34;Creating cscope DB ...&#34;</span>
 /usr/bin/cscope -b -q -k

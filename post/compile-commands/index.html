@@ -34,7 +34,7 @@ However, if your project does not yet build with soong, you can use bear to gene
 
 
 
-<meta name="generator" content="Hugo 0.60.1" />
+<meta name="generator" content="Hugo 0.75.1" />
 
 
 <link rel="canonical" href="https://www.naseer.dev/post/compile-commands/" />
@@ -53,7 +53,7 @@ However, if your project does not yet build with soong, you can use bear to gene
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.e8754cb4a03587553d84e655353dd328b6785e5d30cbebaa21d55869922d653a.css" integrity="sha256-6HVMtKA1h1U9hOZVNT3TKLZ4Xl0wy&#43;uqIdVYaZItZTo=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.5f35cf2988df05ddaf1163db4405dc1f9fe935052ddf4648303e253b7747b0a5.css" integrity="sha256-XzXPKYjfBd2vEWPbRAXcH5/pNQUt30ZIMD4lO3dHsKU=" media="screen" crossorigin="anonymous">
 
 
 
@@ -73,11 +73,12 @@ However, if your project does not yet build with soong, you can use bear to gene
  Install Bear Create an incremental_build.sh script with the following contents and put it somwhere, like in ~/bin  1 2 3 4 5 6  cd $ANDROID_BUILD_TOP .">
 <meta itemprop="datePublished" content="2019-10-08T16:05:28-04:00" />
 <meta itemprop="dateModified" content="2019-10-08T16:05:28-04:00" />
-<meta itemprop="wordCount" content="118">
+<meta itemprop="wordCount" content="120">
 
 
 
-<meta itemprop="keywords" content="android,development,clang,compile_commands," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="android,development,clang,compile_commands," />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Compile Commands on Android"/>
 <meta name="twitter:description" content="The clang compilation database (compile_commands.json) is a json file that has instructions on how to compile your file. If your project uses soong, you can follow the instructions here
 However, if your project does not yet build with soong, you can use bear to generate it from make files on Android.
@@ -303,16 +304,24 @@ if (!doNotTrack) {
 . build/envsetup.sh
 lunch <span class="nv">$TARGET_PRODUCT</span>-userdebug
 <span class="nb">cd</span> <span class="nv">$1</span>
-find . <span class="p">|</span> xargs -I <span class="o">{</span><span class="o">}</span> touch <span class="o">{</span><span class="o">}</span>
+find . <span class="p">|</span> xargs -I <span class="o">{}</span> touch <span class="o">{}</span>
 mm -j32
 </code></pre></td></tr></table>
 </div>
 </div><ol start="3">
-<li>Run the following on the target you'd like the <code>compile_commands.json</code> for, for example - you can do the following for surfaceflinger</li>
+<li>Run the following on the target you&rsquo;d like the <code>compile_commands.json</code> for, for example - you can do the following for surfaceflinger</li>
 </ol>
-<pre><code>bear bash ~/bin/incremental_build.sh \
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">bear bash ~/bin/incremental_build.sh \
     frameworks/native/services/surfaceflinger
-</code></pre>
+</code></pre></td></tr></table>
+</div>
+</div>
     </div>
 
     

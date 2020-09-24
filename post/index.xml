@@ -7,10 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Naseer Ahmed</copyright>
-    <lastBuildDate>Tue, 03 Dec 2019 23:15:31 -0500</lastBuildDate>
-    
-	<atom:link href="https://www.naseer.dev/post/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Wed, 23 Sep 2020 22:30:33 -0400</lastBuildDate><atom:link href="https://www.naseer.dev/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Philips346b1c</title>
+      <link>https://www.naseer.dev/post/philips346b1c/</link>
+      <pubDate>Wed, 23 Sep 2020 22:30:33 -0400</pubDate>
+      
+      <guid>https://www.naseer.dev/post/philips346b1c/</guid>
+      <description>If you&amp;rsquo;re looking for a good monitor for your home office setup, I highly recommend the Philips 346B1C.
+Things I like
+ Nice wide, curved, screen. Reasonable sRGB color accuracy for the price. Display Port over USB type C - works well with newer gen Macbooks. The same type C cable also powers the laptop and connects other USB peripherals. Convenient USB expansion ports on the side to plug in a keyboard/mouse.</description>
+    </item>
     
     <item>
       <title>America from the Air</title>
@@ -27,7 +34,7 @@ I tried to identify some of the locations that I was flying over. I wanted to ge
 &lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
     
 
-
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.naseer.dev/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -227,7 +234,8 @@ However, if your project does not yet build with soong, you can use bear to gene
       <pubDate>Sun, 22 Sep 2019 02:03:52 -0400</pubDate>
       
       <guid>https://www.naseer.dev/post/kiwanis-heydenshore/</guid>
-      <description>&lt;div class=&#34;box&#34;&gt;
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.naseer.dev/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;
@@ -247,7 +255,7 @@ However, if your project does not yet build with soong, you can use bear to gene
       <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.naseer.dev/post/hugo-reboot/</guid>
-      <description>My blog was previously based on Octopress - decided to just switch to Hugo today after I had a few issues with Ruby. So far the experience has been quite smooth and Hugo works well on Windows too. I&#39;m using a slightly modified version of this theme</description>
+      <description>My blog was previously based on Octopress - decided to just switch to Hugo today after I had a few issues with Ruby. So far the experience has been quite smooth and Hugo works well on Windows too. I&amp;rsquo;m using a slightly modified version of this theme</description>
     </item>
     
     <item>
@@ -256,7 +264,8 @@ However, if your project does not yet build with soong, you can use bear to gene
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.naseer.dev/post/wasaga-beach-sunset/</guid>
-      <description>&lt;div class=&#34;box&#34;&gt;
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.naseer.dev/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
     &lt;div class=&#34;img&#34;&gt;

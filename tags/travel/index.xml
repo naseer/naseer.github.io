@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Naseer Ahmed</copyright>
-    <lastBuildDate>Tue, 03 Dec 2019 23:15:31 -0500</lastBuildDate>
-    
-	<atom:link href="https://www.naseer.dev/tags/travel/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 03 Dec 2019 23:15:31 -0500</lastBuildDate><atom:link href="https://www.naseer.dev/tags/travel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>America from the Air</title>
       <link>https://www.naseer.dev/post/skypics/</link>
@@ -27,7 +23,7 @@ I tried to identify some of the locations that I was flying over. I wanted to ge
 &lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
     
 
-
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.naseer.dev/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
